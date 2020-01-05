@@ -1,0 +1,37 @@
+
+
+/* image box is this size */
+.imagebox {
+  width: 150px;
+  height: 150px;
+}
+
+/* for defining the padding etc for the boxes 
+*/
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  color: #213159;
+  background-color: white;
+}
+
+/* Title */
+.title {
+  color:orange;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

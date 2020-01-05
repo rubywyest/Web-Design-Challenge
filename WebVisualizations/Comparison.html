@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="col-8">
+    <a class="navbar-brand" style="background-color:orange;" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+    <div class="collapse navbar-collapse col-4" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plot
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item nav-link" href="temp.html">Max Temperature</a>
+            <a class="dropdown-item nav-link" href="humidity.html">Humidity</a>
+            <a class="dropdown-item nav-link" href="Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item nav-link" href="windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+
+      <div class="bg-light no-gutters">
+
+        <!-- Content -->
+                <!-- Create Overall Grid -->
+                <div class="container" >
+                  <div class="row ">
+                      <div class="col-lg-8 col-md-12">
+                          <!-- Left Content Box -->
+                          <div style="padding-bottom: 20px;">
+                              <h3 class="title ">Comparison</h3>
+                              <hr>
+                              
+                              <p><strong>Click</strong> on any plot to get an in-depth analysis</p>
+                         </div>
+                      </div>
+                      <div class="col-lg-10 bg-white">
+                          <!-- Right Content Box -->
+                          <h3 class="title">Visualizations</h3>
+                          <hr>
+                                  <div class="row" >
+                                      <div class="col-lg-6 col-md-6  col-sm-12" >
+                                          <a href="temp.html">
+                                          <img class=" vizualization rounded float-left" src="Resources/Assets/Images/City_Lat_vs_maxTemp.png" alt="Max Temperature Graph"  >
+                                          </a>
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-12">
+                                          <a href="humidity.html">
+                                          <img class=" vizualization rounded float-left" src="Resources/Assets/Images/City_Lat_vs_humidity.png" alt="Humidity Graph" >
+                                          </a>
+                                      </div>
+                                      <div class="col-lg-6 col-md-6  col-sm-12" >
+                                          <a href="cloudiness.html">
+                                          <img class=" vizualization rounded float-left" src="Resources/Assets/Images/City_Lat_vs_cloudiness.png" alt="Cloudiness Graph" >
+                                          </a>
+                                      </div>
+                                      <div class="col-lg-6 col-md-6  col-sm-12">
+                                          <a href="windspeed.html">
+                                              <img class=" vizualization rounded float-left" src="Resources/Assets/Images/City_Lat_vs_windspeed.png" alt="Wind Speed Graph"  >
+                                          </a>
+                                      </div>
+                                  </div>
+                          </div>
+                      </div>
+                  </div>
+        
+                </div>
+ <!-- Footer -->
+ <div class="container" >
+  <div class="footer-copyright text-center">&copy;  Copyright 2020: Ruby Mittal. All Rights Reserved. </div>
+</div>
+
+
+
+</body>
+</html>
